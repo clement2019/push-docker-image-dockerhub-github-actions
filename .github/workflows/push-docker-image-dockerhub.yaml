@@ -1,4 +1,4 @@
-name: Build and Push Docker image to Docker Hub
+name: Deployment of docker image to DockerHub using github-actions
 
 on: push
 jobs:
@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: devopshint/node-app:latest
+          tags: goodlord777/node-app:latest
